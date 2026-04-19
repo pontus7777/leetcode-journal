@@ -1,11 +1,11 @@
 const fs = require('fs');
 const axios = require('axios');
 
-const USERNAME = 'pontus777'; // <-- Replace this
+const USERNAME = 'pontus777';
 const README_PATH = './README.md';
 
 async function fetchStats() {
-  const url = `https://leetcode-stats-api.herokuapp.com/${USERNAME}`;
+  const url = `https://leetcode-api-faisalshohag.vercel.app/${USERNAME}`;
   const res = await axios.get(url);
   return res.data;
 }
@@ -20,8 +20,7 @@ function updateReadme(stats) {
 **Total Solved:** ${stats.totalSolved}  
 **Easy:** ${stats.easySolved}  
 **Medium:** ${stats.mediumSolved}  
-**Hard:** ${stats.hardSolved}  
-**Ranking:** ${stats.ranking}
+**Hard:** ${stats.hardSolved}
 `;
 
   const updated = readme.replace(
