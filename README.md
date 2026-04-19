@@ -13,7 +13,12 @@ This repository tracks my LeetCode progress with:
 ## 📊 Daily LeetCode Stats (Auto‑Updated)
 
 <!-- LEETCODE_STATS_START -->
-Loading stats...
+
+**Total Solved:** 2  
+**Easy:** 2  
+**Medium:** 0  
+**Hard:** 0
+
 <!-- LEETCODE_STATS_END -->
 
 ---
