@@ -14,8 +14,8 @@ This repository tracks my LeetCode progress with:
 
 <!-- LEETCODE_STATS_START -->
 
-**Total Solved:** 2  
-**Easy:** 2  
+**Total Solved:** 3  
+**Easy:** 3  
 **Medium:** 0  
 **Hard:** 0
 
